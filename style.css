@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth !important;
+    font-family: 'Proza Libre', 'Open Sans', sans-serif;
+}
+
+#back-to-top {
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-me figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+}
+
+.about-me figure img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.about-me #content {
+    width: 74%;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+.about-me #content p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#projects {
+    width: 100%;
+}
+
+.project-group {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.single-project {
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#skills {
+    margin-bottom: 40px;
+}
+
+#skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#skills-container > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: var(--spacing-1);
+}
+
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
